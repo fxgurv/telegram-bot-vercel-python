@@ -8,9 +8,10 @@ from os import getenv
 
 # Define a few command handlers.
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_html(text="hello world!")
+    await update.message.reply_html(text="I am working in Telegram!")
+
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_html(text="help me!")
+    await update.message.reply_html(text="Help me!")
 
 async def bot_tele(text):
     # Create application
